@@ -80,28 +80,6 @@
         app:layout_constraintTop_toBottomOf="@+id/tvMovieDirector" />
 
     <TextView
-        android:id="@+id/tvMovieCast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:text="Cast"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvDirectorName" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvMovieCast" />
-
-    <TextView
         android:id="@+id/tvMovieYear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -111,7 +89,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDirectorName" />
 
     <TextView
         android:id="@+id/textView8"
